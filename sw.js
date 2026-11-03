@@ -1,5 +1,5 @@
 /* Borç Çizelgesi · çevrimdışı çalışma ve ödeme hatırlatması */
-const VERSION = 'v1';
+const VERSION = 'v2';
 const CACHE = 'borc-' + VERSION;
 const FONT_CACHE = 'borc-fonts';
 const SHELL = [
