@@ -1,0 +1,25 @@
+{
+  "name": "Borç Çizelgesi",
+  "short_name": "Borçlar",
+  "description": "Aylık borç ve ödeme çizelgesi: krediler, kart, kira, SGK, çek ve senetler tek yerde.",
+  "lang": "tr",
+  "dir": "ltr",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F3F4F8",
+  "theme_color": "#F3F4F8",
+  "categories": ["finance", "business", "productivity"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Yeni borç ekle", "short_name": "Yeni borç", "url": "./?yeni=1", "icons": [{ "src": "icons/sc-add-96.png", "sizes": "96x96", "type": "image/png" }] },
+    { "name": "Bu ayın takvimi", "short_name": "Takvim", "url": "./?sekme=takvim", "icons": [{ "src": "icons/sc-cal-96.png", "sizes": "96x96", "type": "image/png" }] },
+    { "name": "Para yetecek mi?", "short_name": "Yeter mi?", "url": "./?hesap=1", "icons": [{ "src": "icons/sc-cash-96.png", "sizes": "96x96", "type": "image/png" }] }
+  ]
+}
